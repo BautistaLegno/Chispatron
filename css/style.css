@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #34496a;
+    overflow-x: hidden;
+  }
+  
+
+
+
+
+
+#imagen img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  max-width: 100%;
+}
+/*CRONOGRAMA------------------------------------------------------------------------------------------------------------------*/
+#cronograma{
+  width: 100%;
+  height: 40em;
+  background-image: url(../img/robot\ banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+}
+.containercron {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5em;
+  background: transparent;
+  border:2px solid rgba(255, 255, 255, .2);
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  opacity: 10;
+  margin: auto;
+}
+.containercron h1,p{
+  color: white;
+}
+select {
+  padding: 10px;
+  width: 100%;
+  margin-top: 2em;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 1em;
+  font-size: 1em;
+  color: white;
+  background-color: aqua;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
